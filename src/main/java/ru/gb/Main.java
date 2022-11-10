@@ -19,5 +19,16 @@ public class Main {
         ex2.removeEvenNum();
         ex2.printList();
 
+        int a2 [] ={1,2,3,4,5,6,7,8,9,10};
+        ArrayList<Integer> list2= new ArrayList<>();
+        for (int i = 0; i <a.length; i++) {
+            list2.add(i,a[i]);
+        }
+
+        Ex3 ex3 = new Ex3(list2);
+        System.out.println(ex3.getMin());
+        System.out.println(ex3.getMax());
+        System.out.println(ex3.getMidSum());
+
     }
 }
