@@ -25,6 +25,11 @@ public class MyHomeWork {
         System.out.println(linkedList);
         System.out.println(linky.getFirst());
 
+        Calculator calculator = new Calculator();
+        calculator.action(1,2,"+");
+        calculator.action(calculator.getC(),4,"+");
+        System.out.println(calculator.returnBack());
+        calculator.action(calculator.getC(),3,"*");
 
 
     }
