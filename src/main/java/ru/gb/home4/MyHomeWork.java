@@ -17,6 +17,16 @@ public class MyHomeWork {
         linkedList.add(6);
         linkedList.add(7);
         System.out.println(linky((LinkedList) linkedList));
+
+        QueueLinky linky = new QueueLinky((LinkedList) linkedList);
+        linky.endqueue(8);
+        System.out.println(linkedList);
+        linky.dequeue();
+        System.out.println(linkedList);
+        System.out.println(linky.getFirst());
+
+
+
     }
 
     private static List linky(LinkedList linkedList) {
