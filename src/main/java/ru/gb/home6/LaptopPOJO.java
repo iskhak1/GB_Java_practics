@@ -1,6 +1,6 @@
 package ru.gb.home6;
 
-public class Laptop {
+public class LaptopPOJO {
     private String manufacturerWarranty;
     private String countryOfOrigin;
     private String type;
@@ -22,22 +22,22 @@ public class Laptop {
     private String totalCapacityOfHardDiskDrives;
 
 
-    public Laptop(String manufacturerWarranty,
-                  String countryOfOrigin,
-                  String type, String model,
-                  String yearOfRelease, String os,
-                  String color, String screenType,
-                  String screenSize,
-                  String screenResolution,
-                  String procModel,
-                  int numOfCores,
-                  String processorFrequency,
-                  String typeOfRam,
-                  int ramCapacity,
-                  String numberOfSlotsForMemoryModules,
-                  String integratedGraphicsCardModel,
-                  String totalSolidStateDrives,
-                  String totalCapacityOfHardDiskDrives) {
+    public LaptopPOJO(String manufacturerWarranty,
+                      String countryOfOrigin,
+                      String type, String model,
+                      String yearOfRelease, String os,
+                      String color, String screenType,
+                      String screenSize,
+                      String screenResolution,
+                      String procModel,
+                      int numOfCores,
+                      String processorFrequency,
+                      String typeOfRam,
+                      int ramCapacity,
+                      String numberOfSlotsForMemoryModules,
+                      String integratedGraphicsCardModel,
+                      String totalSolidStateDrives,
+                      String totalCapacityOfHardDiskDrives) {
         this.manufacturerWarranty = manufacturerWarranty;
         this.countryOfOrigin = countryOfOrigin;
         this.type = type;
