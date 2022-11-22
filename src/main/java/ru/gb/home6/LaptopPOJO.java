@@ -22,22 +22,7 @@ public class LaptopPOJO {
     private String totalCapacityOfHardDiskDrives;
 
 
-    public LaptopPOJO(String manufacturerWarranty,
-                      String countryOfOrigin,
-                      String type, String model,
-                      String yearOfRelease, String os,
-                      String color, String screenType,
-                      String screenSize,
-                      String screenResolution,
-                      String procModel,
-                      int numOfCores,
-                      String processorFrequency,
-                      String typeOfRam,
-                      int ramCapacity,
-                      String numberOfSlotsForMemoryModules,
-                      String integratedGraphicsCardModel,
-                      String totalSolidStateDrives,
-                      String totalCapacityOfHardDiskDrives) {
+    public LaptopPOJO(String manufacturerWarranty, String countryOfOrigin, String type, String model, String yearOfRelease, String os, String color, String screenType, String screenSize, String screenResolution, String procModel, int numOfCores, String processorFrequency, String typeOfRam, int ramCapacity, String numberOfSlotsForMemoryModules, String integratedGraphicsCardModel, String totalSolidStateDrives, String totalCapacityOfHardDiskDrives) {
         this.manufacturerWarranty = manufacturerWarranty;
         this.countryOfOrigin = countryOfOrigin;
         this.type = type;
@@ -209,5 +194,30 @@ public class LaptopPOJO {
 
     public void setTotalCapacityOfHardDiskDrives(String totalCapacityOfHardDiskDrives) {
         this.totalCapacityOfHardDiskDrives = totalCapacityOfHardDiskDrives;
+    }
+
+    @Override
+    public String toString() {
+        return "LaptopPOJO{" +
+                "manufacturerWarranty='" + manufacturerWarranty + '\'' +
+                ", countryOfOrigin='" + countryOfOrigin + '\'' +
+                ", type='" + type + '\'' +
+                ", model='" + model + '\'' +
+                ", yearOfRelease='" + yearOfRelease + '\'' +
+                ", os='" + os + '\'' +
+                ", color='" + color + '\'' +
+                ", screenType='" + screenType + '\'' +
+                ", screenSize='" + screenSize + '\'' +
+                ", screenResolution='" + screenResolution + '\'' +
+                ", procModel='" + procModel + '\'' +
+                ", numOfCores=" + numOfCores +
+                ", processorFrequency='" + processorFrequency + '\'' +
+                ", typeOfRam='" + typeOfRam + '\'' +
+                ", ramCapacity=" + ramCapacity +
+                ", numberOfSlotsForMemoryModules='" + numberOfSlotsForMemoryModules + '\'' +
+                ", integratedGraphicsCardModel='" + integratedGraphicsCardModel + '\'' +
+                ", totalSolidStateDrives='" + totalSolidStateDrives + '\'' +
+                ", totalCapacityOfHardDiskDrives='" + totalCapacityOfHardDiskDrives + '\'' +
+                '}';
     }
 }
